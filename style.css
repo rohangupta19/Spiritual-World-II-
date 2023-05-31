@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+body{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.spiritual-world{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.logo{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 22px;
+    font-weight: 600;
+}
+.nav-bar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-tab{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 15px;
+    transition: 0.5s;
+}
+.nav-tab a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.sub-nav{
+    position: absolute;
+    width: 250px;
+    border-radius: 10px;
+    border-bottom: 5px solid blue;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transform: translateY(10px);
+    background: white;
+    z-index: 1;
+    transition: 0.3s;
+    display: block;
+    opacity: 0;
+
+}
+.nav-tab:hover .sub-nav{
+    transition: 0.3s;
+    display: grid;
+    opacity: 1;
+}
+.sub-nav-tab{
+    width: 230px;
+    height: 50px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: 500;
+}
+.home{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-image: url(numerology-collage-concept\ 1.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+.layer-black{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+.home-img{
+    position: relative;
+    transform: translateY(200px);
+    width: 1000px;
+    height: 1000px;
+    border-radius: 100%;
+    background: #171d2b;
+    background-image: url(3946529\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.home-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    width: 100%;
+    font-weight: 500;
+    font-size: 65px;
+    text-align: center;
+}
+h2{
+    width: 100%;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    transform: translateY(-50px);
+
+}
+h4{
+    width: 100%;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    transform: translateY(-50px);
+}
+h6{
+    width: 60%;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    transform: translateY(-100px);
+
+}
+
+
+.section-about-box
+    {
+        width: 100%;
+        height: 675px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        transform: translateY(70px);
+    }
+
+.section-about-img
+    {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-bottom-right-radius: 50px;
+    }
+
+.section-about-txt
+    {
+        width: 50%;
+        height: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+
+.about-head-box
+    {
+        width: 300px;
+        height: 100px;
+        margin-left: 50px;
+        font-size: 35px;
+        font-weight: 600;
+        color: black;
+        border-bottom: 5px solid black;
+    }
+
+.about-detail-box
+    {
+        width: 600px;
+        padding-left: 50px;
+        font-size: 17px;
+        font-weight: 400;
+        color: black;
+    }
+
+.about-btn-box
+    {
+        width: 180px;
+        height: 50px;
+        margin-left: 50px;
+        font-size: 22px;
+        font-weight: 600;
+        border-radius: 50px;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        transition: 0.5s;
+        margin-top: -20px;
+    }
+
+.about-btn-box:hover
+    {
+        transition: 0.5s;
+        transform: translateY(-10px);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+.section-about-img img
+    {
+        width: 75%;
+        border-radius: 50px;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    }
+
+
+.spiritual-path{
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.head{
+    width: 80%;
+    padding-left: 100px;
+    margin: 50px 0px;
+    font-size: 50px;
+    font-weight: 400;
+}
+.detail{
+    width: 90%;
+    padding-left: 100px;
+    margin: 50px 0px;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tab-box-sp{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tab-sp{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 0.3s;
+}
+
+.tab-box-sp a:nth-child(1) .tab-sp{
+    background-image: url(image\ 18.png);
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.tab-box-sp a:nth-child(2) .tab-sp{
+    background-image: url(image\ 16.png);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+.tab-box-sp a:nth-child(3) .tab-sp{
+    background-image: url(image\ 17.png);
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.tab-sp h3{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.angel-numbers{
+    width: 100%;
+}
+.angel-numbers .head{
+    font-size: 35px;
+}
+.angel-number-tab-box{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.angel-number-tab{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    background: white;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.ant-no{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+}
+.ant-no img{
+    width: 200px;
+    height: 200px;
+}
+.ant-no h3{
+    position: absolute;
+    color: black;
+}
+.ant-txt{
+    width: 360px;
+    height: 160px;
+    font-size: 14px;
+    padding: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.tarot-card{
+    width: 100%;
+    padding-top: 50px;
+}
+.healing{
+    width: 100%;
+    padding-top: 50px;
+}
+.heal-box{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.heal-box a:nth-child(1) .heal-tab{
+    background-image: url(img-1.png);
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.heal-box a:nth-child(2) .heal-tab{
+    background-image: url(image\ 21.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.heal-tab{
+    width: 570px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 50px;
+    background: blue;
+    overflow: hidden;
+}
+.heal-content{
+    padding-left: 30px;
+    transform: translateY(250px);
+    padding-top: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.card-box{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.card-box a:nth-child(1) .card-tab{
+    background-image: url(img-1.png);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+.card-box a:nth-child(2) .card-tab{
+    background-image: url(image\ 15.png);
+    background-position: center;
+    background-size: 170%;
+    background-repeat: no-repeat;
+}
+.card-box a:nth-child(3) .card-tab{
+    background-image: url(image\ 14.png);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+.card-tab{
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    margin: 50px;
+    background: blue;
+    overflow: hidden;
+}
+.card-content{
+    padding-left: 30px;
+    transform: translateY(350px);
+    padding-top: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+
+
+
+.footer{
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+    background-color: blue;
+    bottom: 0px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .lg{
+    border-radius: 10px;
+    font-size: 25px;
+    transform: translateY(-50px);
+    display: grid;
+    }
+    .footer h3{
+    color: white;
+    }
+    .footerlink{
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+    .footerlink a{
+    padding: 7px;
+    color: white;
+    transition: 0.5s;
+    }
+    .footerlink a:hover{
+    color: white;
+    transition: 0.5s;
+    }
+    .footer .followlink{
+    display: grid;
+    text-align: center;
+    }
+    .footer .footericon{
+    display: flex;
+    margin: 10px;
+    margin-left: 30px;
+    }
+    .footericon .ficon{
+    width: 40px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-radius: 100%;
+    }
+    .footericon .ficon:hover{
+    background: black;
+    color: white;
+    }
+
+    form{
+padding-left: 100px;        
+    }
+    input{
+        padding-left: 25px;
+        border-radius: 10px;
+        width: 450px;
+        height: 50px;
+        font-size: 15px;
+        margin: 7px 20px;
+    }
+    textarea{
+        padding-left: 25px;
+        border-radius: 10px;
+        width: 450px;
+        padding-top: 25px;
+        height: 100px;
+        font-size: 18px;
+        margin: 7px 20px;
+    }
+    .submit{
+        width: 200px;
+        border-radius: 50px;
+        background-color: darkblue;
+        color: white;
+        margin: 20px;
+        padding-left: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+    
+.card-stack{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+    .jar{
+    position: absolute;
+    display: flex;
+    }
+    .card{
+        position: absolute;
+    width: 300px;
+    height: 400px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform: rotate(40deg) skew(-20deg,-10deg);
+    transition: 1s;
+    box-shadow: 35px 35px 50px rgba(0,0,0,0.5);
+    overflow: hidden;
+    background-image: url(back-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+    .jar:hover .card{
+        width: 300px;
+    height: 450px;
+        transform: rotate(0deg) skewY(0deg);
+        transition: 1s;
+        box-shadow: 35px 35px 50px rgba(0,0,0,0.5);
+        margin: 50px;
+        background: blue;
+        background-image: url(Frame\ 2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150%;
+        border-top: 3px solid white;
+        border-left: 3px solid white;
+        border-radius: 20px;
+    
+    }
+    .jar:hover{
+            animation: animate 0s linear infinite;
+    }
+    .one{
+        position: relative;
+    top: -50px;
+    right: -300px;
+    z-index: 2;
+    }
+    .two{
+        position: relative;
+        top: 0px;
+        z-index: 1;
+    }
+    .three{
+        position: relative;
+        top: 50px;
+    right: 300px;
+    
+    }
+    .jar:hover .one{
+    
+        position: relative;
+        top: 0px;
+    right: 0px;
+    }
+    .jar:hover .two{
+    
+        position: relative;
+        top: 0px;
+    right: 0px;
+    }
+    .jar:hover .three{
+    
+        position: relative;
+        top: 0px;
+    right: 0px;
+    }
+        
+    
+
+    .content{
+        width: 200px;
+        height: 200px;
+        font-size: 30px;
+        background: white;
+        border-bottom-left-radius: 150px;
+        border-top-right-radius: 100px;
+        font-weight: 700;
+        text-align: center;
+        opacity: 0;
+        transition: 0s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .jar:hover .content{
+        opacity: 1;
+        transition: 0.5s;
+    }
